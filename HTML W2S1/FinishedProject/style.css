@@ -1,0 +1,30 @@
+* {
+    /* CSS RESET*/
+        margin:0px;
+        padding:0px;
+}
+
+.container {
+    height:1000px;
+    width:960px;
+    /* centering my container*/
+    margin:0 auto;
+    /* margin pushes out, padding pushes in */
+    border:2px solid black;
+}
+
+.my-flex {
+    display:flex;
+    border:2px solid black;
+    height:50px;
+    padding:30px;
+    /*justify-content lets us manage children horizontally  flex-, center, space commands*/
+    justify-content:center;
+    /* align-items:center; */
+    align-items:center;
+}
+
+h1 {
+    border:2px solid black;
+
+}

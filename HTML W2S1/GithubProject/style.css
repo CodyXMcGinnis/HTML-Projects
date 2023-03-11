@@ -1,0 +1,61 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+h1{
+    text-decoration-color: gray;
+    font-size: 50px;
+    padding-top: 20px;
+    
+}
+
+body{
+    text-align: center;
+    background-color: lightgray;
+}
+
+.box {
+    display: flex;
+    height:850px;
+    width:900px;
+    flex-direction: column;
+    padding:30px;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+div{
+    height:200px;
+    width:700px;
+    padding: 30px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.blue {
+    background-color:aqua;
+    
+}
+
+.pink {
+    background-color:pink;
+
+}
+
+.white {
+    background-color:white;
+}
+
+img {
+    width:200px;
+    height:200px;
+    justify-content:center;
+    background-color: white;
+
+}
+p{
+    padding-bottom: 20px;
+}

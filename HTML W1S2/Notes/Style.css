@@ -1,0 +1,50 @@
+/* Each of these have ascending levels of power*/
+*{
+    /*This is a CSS Reset*/
+    margin:0px;
+    padding:0px;
+    /* border:2px dotted yellow; */
+}/*highlight line and control + / to toggle on and off*/
+
+body {background-color:purple;}
+/*this is an element selector*/
+H1 {
+    color:crimson;
+    background-color:aquamarine;
+    text-align:center;
+    display:inline-block;
+    padding:20px;
+    border:15px solid black;
+    margin:25px;
+    height:60px;
+    width:300px;
+    font: size 60px;
+    margin:10px 50px 5px 20px;
+}
+    /* top, right, bottom, left*/
+a {
+    color:chartreuse;
+    background-color:gold;
+    display:block;
+    margin-top:200px;
+}
+/*this is a class slector, same name as class in the HTML*/
+.my-h1 {
+    color:green;
+    background-color: aliceblue;
+
+}
+
+/*overrides other commands*/
+/*this is id selector*/ 
+#my-id {
+    color:blue; 
+} 
+
+.my-div {
+    margin-left:200px;
+    background-color:blue;
+    display:inline-block;
+
+
+}
